@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b When:
+  = @transaction.when
+%p
+  %b Amount:
+  = @transaction.amount
+%p
+  %b Description:
+  = @transaction.description
+%p
+  %b Total:
+  = @transaction.total
+
+= link_to 'Edit', edit_transaction_path(@transaction)
+\|
+= link_to 'Back', transactions_path

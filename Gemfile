@@ -13,7 +13,7 @@ gem 'rails', '3.0.4'
 # gem 'capistrano'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
-# gem 'ruby-debug'
+gem 'ruby-debug'
 # gem 'ruby-debug19'
 
 # Bundle the extra gems:
@@ -40,3 +40,4 @@ gem "compass"
 gem "capybara", "0.4.0", :group => :test
 gem "cucumber-rails", :group => :test
 gem "launchy", :group => :test
+gem 'fastercsv'

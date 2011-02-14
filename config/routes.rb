@@ -1,4 +1,9 @@
 Bankio::Application.routes.draw do
+  resources :transactions
+
+  get "csv/import"
+  post "csv/import" => 'csv#upload'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
